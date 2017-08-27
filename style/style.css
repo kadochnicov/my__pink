@@ -1,3 +1,18 @@
 .main-header {
-  background-image: url("img/background-1@1x.jpg");
+  margin: 0 auto;
+  background-color: #eee;
+}
+
+.main-header--mobile {
+  width: 320px;
+  min-height: 450px;
+  background-image:
+    url(../img/iphone-hand-1.png),
+    url(../img/background-1@1x.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+.main-header__lists--close {
+  display: none;
 }
