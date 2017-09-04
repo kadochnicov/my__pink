@@ -228,3 +228,25 @@ body {
     border-radius: 20px;
     border: 2px solid #ccc;
 }
+
+.contact {
+  text-align: center;
+}
+
+.contact__title {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.contact__item b {
+  font-size: 18px;
+}
+
+.contact__item p {
+  margin-top: 8px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #d22856;
+}
